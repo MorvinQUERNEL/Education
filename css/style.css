@@ -1,0 +1,227 @@
+:root {
+    font-size: 16px;
+
+}
+* {
+    font-family: osw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'osw';
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+    height: normal;
+    width: normal;
+}
+body {
+    background-color: white;
+}
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        h1 {
+            color: #FE7EC9;
+            margin-inline: 50px;
+            font-size: 2rem;
+        }
+        .burger {
+            margin-inline: 50px;
+            width: 50px;
+            padding: O;
+            border: none;
+            background: none;
+
+            span {
+                border: 2px solid black;
+                display: block;
+                width: 25px;
+                height: 0px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 5px;
+
+                &:not(:last-of-type) {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        ul {
+            display: none;
+        }
+    }
+}
+main {
+    text-align: center;
+    .mioches {
+        margin: auto;
+        padding-inline: 50px;
+    }
+    #section1 {
+        #h2one {
+            color: #488DF4;
+            font-size: 3rem;
+        }
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        #apprentissage {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -5px;
+            background-color: #38C4C1;
+            width: 100%;
+            height: 50vh;
+            color: black;
+            img {
+                width: 25%;
+                margin-bottom: 20px;
+            }
+        }
+        #philosophie {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -5px;
+            padding-top: 35px;
+            background-color: #FECA02;
+            width: 100%;
+            height: 50vh;
+            color: black;
+            img {
+                width: 25%;
+                margin-bottom: 20px;
+            }
+        }
+        #pratique {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -5px;
+            padding-top: 35px;
+            background-color: #FE7EC9;
+            width: 100%;
+            height: 50vh;
+            color: black;
+            img {
+                width: 25%;
+                margin-bottom: 20px;
+            }
+            a {
+                font-size: 50px;
+            }
+        }
+        #jeux {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -5px;
+            padding-top: 35px;
+            background-color: #488DF4;
+            width: 100%;
+            height: 50vh;
+            color: black;
+            img {
+                width: 25%;
+                margin-bottom: 20px;
+            }
+        }
+        a {
+            font-weight: lighter;
+            font-size: 3rem;
+            color: black;
+        }
+    }
+    #section2 {
+        text-align: center;
+        h2 {
+            font-size: 3rem;
+        }
+        h3 {
+            font-weight: lighter;
+            font-size: 3rem;
+            margin-bottom: 25px;
+        }
+        img {
+            margin-block: 10px;
+        }
+        #enseignants {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 50px 10px 50px;
+            margin-block: 1Opx;
+            background-color: #38C4C13D;
+            height: 50vh;
+            color: black;
+            img {
+                height: 75px;
+                width: 75px;
+                margin-bottom: 20px;
+                background-color: #38C4C1;
+                border-radius: 50%;
+            }
+            a {
+                font-size: 2rem;
+                color: #38C4C1;
+            }
+            }
+            #mission {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 50px 10px 50px;
+                margin-block: 1Opx;
+                background-color: #FE7EC93D;
+                height: 50vh;
+                color: black;
+                img {
+                    height: 75px;
+                    width: 75px;
+                    margin-bottom: 20px;
+                    background-color: #FE7EC9;
+                    border-radius: 50%;
+                }
+                a {
+                    font-size: 2rem;
+                    color: #38C4C1;
+                }
+                }
+    }
+}
+
+footer {
+    background-color: #333333;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        color: white;
+        font-weight: lighter;
+    }
+}
+@media (min-width:834px){
+    
+}
+@media (min-width:1440px){
+    
+}
