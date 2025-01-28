@@ -25,7 +25,10 @@ img {
 a {
     text-decoration: none;
 }
-
+@font-face {
+    font-family: 'KumbhSans' ;
+    src: url(fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
 @font-face {
     font-family: 'Oswald';
     src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
@@ -68,17 +71,26 @@ header {
             }
         }
 
-        /* mettre en commentaire pour activer */
         div {
             display: none;
         }
 
         .show {
+            display: block;
             position: absolute;
             text-align: center;
             width: 100vw;
-            margin-left: -50px;
+            left: 0px;
             background-color: rgba(0, 0, 0, 0.5);
+            p {
+                text-align: right;
+                padding-right: 25px;
+                width: 65vw;
+                background-color: var(--dark);
+                color: var(--light);
+                font-family: KumbhSans;
+
+            }
 
             ul {
                 height: 510vh;
@@ -87,14 +99,10 @@ header {
                 position: relative;
                 background-color: var(--dark);
 
-                :nth-child(1) {
-                    text-align: right;
-                    color: var(--light);
-                    margin-right: 25px;
-                }
-
                 li {
+                    padding: 10px;
                     a {
+                        font-family: KumbhSans;
                         color: var(--light);
                         font-size: 20px;
                         font-weight: lighter;
